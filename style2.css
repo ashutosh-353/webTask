@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 15px;
+  }
+  
+  #ask-question {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #question-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #question {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #questions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .question {
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .question-title {
+    font-weight: bold;
+  }
+  
+  .comments {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
+  }
+  
+  .comment {
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* Add styles for admin controls (delete/update buttons) here (optional) */
+  
