@@ -1,11 +1,15 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
-  
+body{
+
+  align-items:center;
+  min-height:100vh;
+  background:url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg') no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
   h1, h2 {
     margin-bottom: 15px;
+    color:white;
   }
   
   #ask-question {
@@ -29,6 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color:rgb(255, 0, 242);
   }
   
   .question {
@@ -37,6 +42,16 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
+  }
+
+  #question{
+    border-radius:10px;
+  }
+
+  textarea::placeholder{
+    color:black;
+    font-size:larger;
   }
   
   .question-title {
@@ -55,5 +70,16 @@ body {
     padding-bottom: 5px;
   }
   
+  label{
+    color:white;
+  }
+
+  #ok{
+    height:30px;
+    width:250px;
+    margin-left:590px;
+    color:black;
+    font-weight:bold;
+  }
   /* Add styles for admin controls (delete/update buttons) here (optional) */
   
