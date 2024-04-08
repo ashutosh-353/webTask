@@ -2,14 +2,14 @@ const wrapper = document.querySelector(".wrapper");
 
 const registerLink = document.querySelector(".register-link");
 
-function func() {
-  const email1 = document.getElementById("user-email-1").value;
-  const password1 = document.getElementById("user-pw-1").value;
+
+  function func() {
+  
 
 const email = document.getElementById("user-email").value;
 const password = document.getElementById('user-pw').value;
 
-if (email === email1 && password ===password1) {
+if (email === 'meherashutosh2004@gmail.com' && password ==='12345') {
   window.location.href="index2.html";
   alert("Successful !");
   
